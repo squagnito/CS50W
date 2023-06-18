@@ -1,3 +1,7 @@
+body {
+    font-family: arial, sans-serif;
+}
+
 #nav {
     list-style-type: none;
     display: flex;
@@ -11,7 +15,6 @@
 
 a:link {
     text-decoration: none;
-    font-family: arial,sans-serif;
     font-size: 13px;
 }
 
@@ -43,7 +46,7 @@ img {
 form {
     display: flex;
     flex-wrap: wrap;
-    max-width: 582px;
+    max-width: 600px;
 }
 
 .search-box {
@@ -77,4 +80,71 @@ form {
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+h3 {
+    margin: .8em 1.25em 0;
+    padding: 1.5em .8em;
+    color: #d93025;
+    font-size: 1.2rem;
+    font-weight: inherit;
+}
+
+h4 {
+    font-weight: inherit;
+}
+
+.adv-search {
+    border-top: 1px solid lightgrey;
+    margin: .8em 1.5em 0;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+p {
+    font-size: .8rem;
+}
+
+.left {
+    width: 40%;
+    max-width: 167px;
+}
+
+.right {
+    width: 69%;
+}
+
+.row-text-box {
+    min-height: 1.8em;
+    width: 100%;
+    padding: .2em .5em;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+}
+
+.adv-button-div {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.adv-button {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: .7rem;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+.adv-button:hover {
+    background-color: #aecbfa;
+    border: 1px solid #4d90fe;
 }
